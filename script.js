@@ -1,7 +1,4 @@
 
-//upload to GitHub
-// implemantation instructions ... does this mean a README????
-//average revenue per chain... how to display function .. possible new object with function value
 
 var locations = []; // this array will hold your objects
 
@@ -36,22 +33,3 @@ $(document).ready(function () {
   });
 });
 
-//Pizza For People Object Challenge
-//
-//You have been given the following data
-
-//["IL", 5000, 12]
-//["MN", 300, 3]
-//["NV", 25000, 1]
-
-//which represents the state, annual revenue, and number of locations for a pizza chain, Pizza For People.
-
-//Pizza For People wants to use your object knowledge to
-
-//display their locations as a list
-//display the average amount of revenue per location for each chain
-//Implementation Instructions
-//Fork the repo for this project.
-//Create an object constructor for each state (probably named something like State or Region). The object properties should include state, revenue, locationCount).
-//Create a function, within the constructor, that calculates and returns the average revenue. Name this function averageRevenue.
-//Create an instance of each object using the provided data.
